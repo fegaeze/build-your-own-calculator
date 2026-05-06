@@ -1,0 +1,28 @@
+{
+  "name": "build-your-own-calculator",
+  "version": "1.0.0",
+  "description": "John Crickett's Coding Challenge: https://codingchallenges.fyi/challenges/challenge-calculator",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fegaeze/build-your-own-calculator.git"
+  },
+  "author": "Chioma Nkem-Eze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fegaeze/build-your-own-calculator/issues"
+  },
+  "homepage": "https://github.com/fegaeze/build-your-own-calculator#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@vitest/coverage-v8": "^4.1.5",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}
